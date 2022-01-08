@@ -2,8 +2,20 @@
     Small devices (landscape phones, 576px and up)
 ------------------------------------*/
 @media (min-width: 576px) {
+   .serv img{
+    width: 80%;
+  }
+  .navbar-brand img {
+    width: 80px;
+  }
   .top-header {
     padding: 25px 0 15px;
+  }
+  .hero7 .slide-content {
+    min-height: 700px;
+  }
+  .hero7 .slide-content h1 {
+    margin-top: 100px;
   }
   .hero6 .slide-content {
     min-height: 700px;
@@ -60,6 +72,9 @@
     Medium devices (tablets, 768px and up)
 ------------------------------------*/
 @media (min-width: 768px) {
+   .serv img{
+    width: 60%;
+  }
   .navbar-brand img {
     width: 180px;
   }
@@ -144,6 +159,16 @@
     margin: 0 13px;
     order: 1;
   }
+  .hero7 .slide-content h1 {
+    font-size: 3.5rem;
+  }
+  .hero7 .slide-content br {
+    display: block;
+  }
+  .hero7 .arr-left,
+  .hero7 .arr-right {
+    top: 50%;
+  }
    .hero6 .slide-content h1 {
     font-size: 3.5rem;
   }
@@ -155,7 +180,7 @@
     top: 50%;
   }
     
-   .hero5 .slide-content h1 {
+  .hero5 .slide-content h1 {
     font-size: 3.5rem;
   }
   .hero5 .slide-content br {
@@ -229,11 +254,28 @@
     Large devices (desktops, 992px and up)
 ------------------------------------*/
 @media (min-width: 992px) {
+   .serv img{
+    width: 50%;
+  }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 8px 13px;
   }
   .navbar-expand-md .navbar-nav .nav-item {
     margin-right: 22px;
+  }
+    
+  .hero7 .slide-content {
+    min-height: 100vh;
+  }
+  .hero7 .slide-content h1 {
+    font-size: 4.5rem;
+  }
+  .hero7 .slide-content br {
+    display: block;
+  }
+  .hero7 .arr-left,
+  .hero7 .arr-right {
+    top: 50%;
   }
   .hero6 .slide-content {
     min-height: 100vh;

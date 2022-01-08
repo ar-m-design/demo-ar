@@ -35,7 +35,8 @@
     <div class="top-header d-none d-sm-flex justify-content-between align-items-center">
       <div class="contact"> <a href="tel:+441524572067" class="tel"><i class="fa fa-phone" aria-hidden="true"></i>+44 (0) 1524 572067</a> <a href="mailto:info@ar-developments.co.uk"><i class="fa fa-envelope"
                             aria-hidden="true"></i>info@ar-developments.co.uk</a> </div>
-      <nav class="d-flex aic"> <a href="#" class="login"><i class="fa fa-user" aria-hidden="true"></i>Login</a>
+      <nav class="d-flex aic">
+        <div class="login" data-netlify-identity-menu></div>
         <ul class="nav social d-none d-md-flex">
           <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -56,7 +57,14 @@
           <li class="nav-item"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
           <li class="nav-item"><a class="nav-link" href="gallery.html"><strong>Gallery</strong></a></li>
           <li class="nav-item"><a class="nav-link" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>Services</strong></a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="remapping.html">ECU REMAPPING</a> <a class="dropdown-item" href="remapoptions.html">REMAPPING OPTIONS</a> <a class="dropdown-item" href="diagnostics.html">DIAGNOSTICS</a> <a class="dropdown-item" href="airride.html">AIRRIDE</a> <a class="dropdown-item" href="exhaust.html">EXHAUST SYSTEMS</a> <a class="dropdown-item" href="servicing.html">SERVICING</a> </div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="remapping.html">ECU REMAPPING</a>
+                <a class="dropdown-item" href="remapoptions.html">REMAPPING OPTIONS</a>
+                <a class="dropdown-item" href="upgrades.html">PERFORMACE UPGRADES</a>
+                <a class="dropdown-item" href="airride.html">AIRRIDE</a>
+                <a class="dropdown-item" href="exhaust.html">EXHAUST SYSTEMS</a>
+                <a class="dropdown-item" href="servicing.html">SERVICING</a>
+              </div>
           </li>
           <li class="nav-item"><a class="nav-link" href="shop.html"><strong>Shop ONLINE</strong></a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html"><strong>Contact Us</strong></a></li>
@@ -108,81 +116,82 @@
 
 <!-- Recent Posts End --> 
 <!-- Trust Start -->
-<section >
-    <br />
-    <br />
-    <br />
-    <div class="container" id="cc">
-      <div class="row">
-        <div class="col-md-4 col-md-push-1 animate-box">
-            <h3>Contact Information</h3>
-              <br />
-            <div class="media"> <i class="fa fa-map-marker" style="font-size: 25px"></i>
-              <div class="media-body ml-3">
-                <h5>Address</h5>
-                <a href="#">Unit N3, Thetis Road,<br>
-                Lancaster, Lancashire, LA1 5QP</a> 
-              </div>
-            </div>
-              <br />
-            <div class="media"> <i class="fa fa-envelope-o" style="font-size: 25px"></i>
-              <div class="media-body ml-3">
-                <h5>Have any questions?</h5>
-<a href="mailto:info@ar-developments.co.uk">info@ar-developments.co.uk</a>
-                </div>
-            </div>
-              <br />
-            <div class="media" > <i class="fa fa-phone" style="font-size: 25px"></i>
-              <div class="media-body ml-3">
-                <h5>Call us</h5>
-<a href="tel:+441524572067"> +44 (0) 1524 572067</a> </div>
-            </div>
-              <br />
-            <div class="media" > <i class="fa fa-globe" style="font-size: 25px"></i>
-              <div class="media-body ml-3">
-                <h5>Web</h5>
-<a href="www.ar-developments.co.uk">www.ar-developments.co.uk</a> </div>
-            </div>
+<section > <br />
+  <br />
+  <br />
+  <div class="container" id="cc">
+    <div class="row">
+      <div class="col-md-4 col-md-push-1 animate-box">
+        <h3>Contact Information</h3>
+        <br />
+        <div class="media"> <i class="fa fa-map-marker" style="font-size: 25px"></i>
+          <div class="media-body ml-3">
+            <h5>Address</h5>
+            <a href="#">Unit N3, Thetis Road,<br>
+            Lancaster, Lancashire, LA1 5QP</a> </div>
         </div>
-        <div class="col-md-8 animate-box">
-          <h3>Get In Touch</h3>
-            <br />
-          <form action="#">
-            <div class="row form-group">
-              <div class="col-md-6"> 
-                <!-- <label for="fname">First Name</label> -->
-                <input type="text" id="fname" class="form-control" placeholder="Firstname">
-              </div>
-              <div class="col-md-6"> 
-                <!-- <label for="lname">Last Name</label> -->
-                <input type="text" id="lname" class="form-control" placeholder="Lastname">
-              </div>
-            </div>
-            <div class="row form-group">
-              <div class="col-md-12"> 
-                <!-- <label for="email">Email</label> -->
-                <input type="text" id="email" class="form-control" placeholder="Your email">
-              </div>
-            </div>
-            <div class="row form-group">
-              <div class="col-md-12"> 
-                <!-- <label for="subject">Subject</label> -->
-                <input type="text" id="subject" class="form-control" placeholder="Subject">
-              </div>
-            </div>
-            <div class="row form-group">
-              <div class="col-md-12"> 
-                <!-- <label for="message">Message</label> -->
-                <textarea name="message" id="message" cols="30" rows="8" class="form-control" placeholder="Your message"></textarea>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary">
-            </div>
-          </form>
+        <br />
+        <div class="media"> <i class="fa fa-envelope-o" style="font-size: 25px"></i>
+          <div class="media-body ml-3">
+            <h5>Have any questions?</h5>
+            <a href="mailto:info@ar-developments.co.uk">info@ar-developments.co.uk</a> </div>
+        </div>
+        <br />
+        <div class="media" > <i class="fa fa-phone" style="font-size: 25px"></i>
+          <div class="media-body ml-3">
+            <h5>Call us</h5>
+            <a href="tel:+441524572067"> +44 (0) 1524 572067</a> </div>
+        </div>
+        <br />
+        <div class="media" > <i class="fa fa-globe" style="font-size: 25px"></i>
+          <div class="media-body ml-3">
+            <h5>Web</h5>
+            <a href="www.ar-developments.co.uk">www.ar-developments.co.uk</a> </div>
         </div>
       </div>
+      <div class="col-md-8 animate-box">
+        <h3>Get In Touch</h3>
+        <br />
+        <form name="contact" method="POST" action="formcomplete.html" data-netlify-recaptcha="true" data-netlify="true">
+          <div class="row form-group">
+            <div class="col-md-6"> 
+              <!-- <label for="fname">First Name</label> -->
+              <input type="text" id="fname" class="form-control" placeholder="Firstname">
+            </div>
+            <div class="col-md-6"> 
+              <!-- <label for="lname">Last Name</label> -->
+              <input type="text" id="lname" class="form-control" placeholder="Lastname">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12"> 
+              <!-- <label for="email">Email</label> -->
+              <input type="text" id="email" class="form-control" placeholder="Your email">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12"> 
+              <!-- <label for="subject">Subject</label> -->
+              <input type="text" id="subject" class="form-control" placeholder="Subject">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-md-12"> 
+              <!-- <label for="message">Message</label> -->
+              <textarea name="message" id="message" cols="30" rows="8" class="form-control" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="form-group"> <span>Add file:</span>
+            <input name="file" type="file"/>
+          </div>
+          <div data-netlify-recaptcha="true"></div>
+          <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
 </section>
 <!-- Trust End --> 
 <!-- Pricing Start --> <!-- Pricing End --> 
@@ -264,6 +273,7 @@
 <!--jQuery--> 
 <script src="assets/js/jquery-3.3.1.js"></script> 
 <!--Plugins--> 
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> 
 <script src="assets/js/bootstrap.bundle.js"></script> 
 <script src="assets/js/loaders.css.js"></script> 
 <script src="assets/js/aos.js"></script> 

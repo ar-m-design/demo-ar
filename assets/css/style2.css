@@ -22,6 +22,13 @@ body {
     background-position: center;
     background-color: rgba(0,0,0,0.8)
 }
+.two {
+    background: url("../images/arrow bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: rightcenter;
+    background-color: rgba(0,0,0,0.8)
+}
 
  .bt a{
     display: flex;
@@ -222,7 +229,7 @@ header::after {
 }
 
 .navbar-brand img {
-  width: 135px;
+  width: 80px;
 }
 
 .navbar-collapse .search-form input[type="text"] {
