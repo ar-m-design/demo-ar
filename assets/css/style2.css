@@ -15,6 +15,29 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
+.three{
+    background: url("../images/turbobg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.90)
+}
+.t-title h1{
+    font-size: 3em;
+    color: #FFFFFF;
+    border-bottom: 2px solid #48FF00;
+}
+.t-title p{
+    color: #FFFFFF;
+    font-style: italic;
+}
+.t-title h5{
+    color: #989898;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
 body {
     background: url("../images/robgt_00000.png");
     background-size: cover;
