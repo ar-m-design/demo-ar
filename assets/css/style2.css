@@ -15,6 +15,11 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
+#mce-EMAIL{
+    width: 72%;
+}
+
+
 .three{
     background: url("../images/turbobg.png");
     background-size: cover;
