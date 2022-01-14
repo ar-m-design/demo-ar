@@ -307,7 +307,7 @@ form button.btn-primary:hover {
     7 - Hero
 ------------------------------------*/
 .hero7 {
-  background: url("../images/bg7.jpg") no-repeat ;
+  background: url("../images/bg7.jpg") center center, no-repeat ;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -426,7 +426,7 @@ form button.btn-primary:hover {
     6 - Hero
 ------------------------------------*/
 .hero6 {
-  background: url("../images/bg6.jpg") no-repeat ;
+  background: url("../images/bg6.jpg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -546,7 +546,7 @@ form button.btn-primary:hover {
     5 - Hero
 ------------------------------------*/
 .hero5 {
-  background: url("../images/diag.jpeg") no-repeat ;
+  background: url("../images/diag.jpeg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -787,7 +787,7 @@ form button.btn-primary:hover {
     3 - Hero
 ------------------------------------*/
 .hero3 {
-  background: url("../images/bg3.jpeg") no-repeat ;
+  background: url("../images/bg3.jpeg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1022,7 +1022,7 @@ form button.btn-primary:hover {
     1 - Hero
 ------------------------------------*/
 .hero {
-  background: url("../images/bg.jpeg") no-repeat ;
+  background: url("../images/bg.jpeg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;

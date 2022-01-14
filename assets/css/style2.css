@@ -21,11 +21,8 @@
 
 
 .three{
-    background: url("../images/turbobg.png");
+    background: url("../images/turbobg.png") no-repeat center rgba(0,0,0,0.90);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(0,0,0,0.90)
 }
 .t-title h1{
     font-size: 3em;
