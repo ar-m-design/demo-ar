@@ -169,6 +169,10 @@ header::after {
   bottom: -20px;
 }
 
+.top-header{
+    padding-bottom: 0px;
+}
+
 .nav-link {
   font-family: "Rajdhani", sans-serif;
   text-transform: uppercase;
@@ -187,11 +191,11 @@ header::after {
   margin-right: 10px;
 }
 
-.login {
-  padding: 10px 20px;
+nav .login ul {
   font-size: 14px;
   margin-right: 25px;
   text-transform: uppercase;
+  list-style: none;
 }
 
 .contact a:hover,
@@ -203,10 +207,12 @@ header::after {
 .login i {
   color: #48FF00;
   margin-right: 8px;
+  list-style: none;
 }
 
-.navbar-brand h1 {
-  margin: 0;
+.navbar-brand img {
+  margin: 0px;
+  padding: 0px;
 }
 
 .social {
@@ -236,15 +242,17 @@ header::after {
   color: #fff;
   background-color: #48FF00;
 }
-
+.dropdown-menu a{
+    color: rgba(72,255,0,1.00);
+    font-weight: bold;
+}
 .dropdown-menu{
-    
+    background-color: rgba(0,0,0,0.53);
     float: none;
-    
 }
 
 .navbar-brand img {
-  width: 150px;
+  width: 100px;
 }
 
 .navbar-collapse .search-form input[type="text"] {

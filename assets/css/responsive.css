@@ -6,7 +6,7 @@
     width: 80%;
   }
   .navbar-brand img {
-    width: 100px;
+    width: 120px;
   }
   .top-header {
     padding: 25px 0 15px;
@@ -76,7 +76,7 @@
     width: 60%;
   }
   .navbar-brand img {
-    width: 150px;
+    width: 140px;
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 8px 10px;
@@ -257,11 +257,14 @@
    .serv img{
     width: 50%;
   }
+    .navbar-brand img {
+    width: 180px;
+  }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 8px 13px;
   }
   .navbar-expand-md .navbar-nav .nav-item {
-    margin-right: 22px;
+    margin-right: 0px;
   }
     
   .hero7 .slide-content {
@@ -366,7 +369,7 @@
 ------------------------------------*/
 @media (min-width: 1200px) {
   .navbar-brand img {
-    width: 250px;
+    width: 200px;
   }
   .title h1 {
     font-size: 58px;
