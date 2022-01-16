@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 </head>
 
-<body>
+<body class="two">
 <!-- Loader Start --> 
 
 <!-- Loader End --> 
@@ -69,8 +69,8 @@
 							</li>
                         <li class="nav-item"><a class="nav-link" href="shop.html"><strong>Shop ONLINE</strong></a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html"><strong>Contact Us</strong></a></li>
+                        <li class="nav-item"><a class="d-md-none" style="" data-netlify-identity-menu></a></li> 
                     </ul>
-                    <a class="login d-md-none" data-netlify-identity-menu></a>
                 </div>
             </nav>
         </div>
@@ -86,7 +86,7 @@
     <div class="row">
 <div class="col-12 animate-box">
     <div class="title">
-    <h1>CONTACT FORM</h1>
+    <h1 id="cf">CONTACT FORM</h1>
     </div>
         <form name="contact" method="POST" action="formcomplete.html" data-netlify-recaptcha="true" data-netlify="true">
           <div class="row form-group">
@@ -119,14 +119,13 @@
           </div>
           <div class="form-group">
               <div class="col-md-12">
-                  <h5>Upload a file</h5>
               <span>Add file:</span>
             <input name="file" type="file"/>
               </div>
           </div>
           <div data-netlify-recaptcha="true"></div>
-          <div class="form-group">
-              <div type="submit" value="Send Message" class="bt"> <a><b class="active"><span>send message</span></b></a> </div>
+          <div class="form-group bt" style="background-color: transparent">
+              <div type="submit" value="Send Message"><a><b class="active"><span>send message</span></b></a></div>
           </div>
         </form>
       </div>
@@ -234,7 +233,6 @@
 <script src="assets/js/aos.js"></script> 
 <script src="assets/js/swiper.min.js"></script> 
 <script src="assets/js/lightgallery-all.min.js"></script> 
-<!--Template Script--> 
 <script src="assets/js/main.js"></script>
 </body>
 </html>

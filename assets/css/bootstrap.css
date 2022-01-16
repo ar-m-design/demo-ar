@@ -1779,7 +1779,7 @@ pre code {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #898989;
+    color: #fff;
     background-color: transparent;
     background-clip: padding-box;
     border: 1px solid #626262;
@@ -1799,7 +1799,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #000;
+  color: #fff;
   background-color: transparent;
   border-color: #48ff00;
   outline: 0;
@@ -1837,7 +1837,7 @@ pre code {
 }
 
 select.form-control:focus::-ms-value {
-  color: #000;
+  color: #fff;
   background-color: transparent;
 }
 
