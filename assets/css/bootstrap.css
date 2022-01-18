@@ -254,6 +254,9 @@ button,
 select,
 optgroup,
 textarea {
+	background-color: rgba(0,0,0,00);
+	border: none;
+	color: rgba(255,255,255,1.00);
   margin: 0;
   font-family: inherit;
   font-size: inherit;
