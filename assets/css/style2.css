@@ -15,6 +15,7 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
+
 .netlify-identity-menu a:hover {
   color: #fff;
   background-color: #48FF00;
@@ -82,6 +83,10 @@ form{
     font-size: 1.5em;
     text-decoration: underline;
 }
+.four .fc{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
 
 body {
     background: url("../images/robgt_00000.png");
@@ -90,12 +95,23 @@ body {
     background-position: center;
     background-color: rgba(0,0,0,0.8)
 }
+
+.four {
+	height: 100%;
+	overflow: visible;
+    background: url("../images/arrow bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: rgba(0,0,0,0.8);
+}
+
 .two {
     background: url("../images/arrow bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
-    background-color: rgba(0,0,0,0.8)
+    background-color: rgba(0,0,0,0.8);
 }
 .form- .bt a{
     display: flex;
