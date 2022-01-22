@@ -15,6 +15,106 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
+.datepicker{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 20px 5px 20px;
+	background: #505050;
+	border-color: transparent;
+	box-shadow: 0 0 5px #48FF00, 0 0 25px #48FF00, 0 0 50px #48FF00;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.chk2{
+	width: 100%;
+	border: thin solid #626262;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.background {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  flex-direction: column;
+	padding-top: 10px;
+	border: thin solid #626262;
+}
+
+.chk{
+	width: 100%;
+	display: flex;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+	line-height: inherit;
+}
+
+.input {
+  position: relative;
+  display: block;
+  width: 65px;
+  height: 20px;
+  margin: 8px;
+  outline: none;
+  background: #222;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 20px;
+  box-shadow: -5px -5px 20px rgba(204, 202, 202, 0.1),
+    5px 5px 10px rgba(0, 0, 0, 1), inset -2px -2px 5px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.5), 0 0 0 2px #1f1f1f;
+
+  transition: 0.5s;
+}
+.input:checked {
+  background: #48FF00;
+}
+
+.input:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 20px;
+  background: linear-gradient(to top, #000, #555);
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px #232323;
+  transform: scale(0.98, 0.96);
+  transition: 0.5s;
+}
+.input:checked:before {
+  left: 30px;
+}
+.input:after {
+  content: "on";
+  position: absolute;
+  left: 18%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  transition: 0.8s;
+  font: bold 15px arial, sans-serif;
+  background-color: #145D05;
+  color: transparent;
+  text-shadow: 1px 1px 1px rgba(150, 120, 255, 0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  display: none;
+}
+.input:checked:after {
+  display: inline-flex;
+}
+
 
 .netlify-identity-menu a:hover {
   color: #fff;
@@ -488,12 +588,15 @@ nav .login ul {
     padding-left: 0px;
 }
 
+option{
+}
+
 select {
     text-transform: uppercase;
     font-size: 17px;
     width: 100%;
-    background-color: #4B4B4B;
-    color: #48FF00
+    background: linear-gradient(to top, #000, #555);
+    color: #48FF00;
 }
 
 form input.btn-primary:hover,

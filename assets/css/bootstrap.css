@@ -309,7 +309,7 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
-  -webkit-appearance: listbox;
+	-webkit-appearance: listbox;
 }
 
 textarea {
@@ -1909,6 +1909,7 @@ select.form-control:focus::-ms-value {
 
 select.form-control[size], select.form-control[multiple] {
   height: auto;
+  background-color: transparent;
 }
 
 textarea.form-control {
@@ -3686,7 +3687,7 @@ input[type="button"].btn-block {
 }
 
 .custom-select:focus {
-  border-color: #ee1515;
+  border-color: #48FF00;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(238, 21, 21, 0.25);
 }
