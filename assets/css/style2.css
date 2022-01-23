@@ -15,16 +15,20 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
-.datepicker{
-	color: #000;
-	text-transform: uppercase;
-	font-weight: bold;
-	padding: 5px 20px 5px 20px;
-	background: #505050;
-	border-color: transparent;
-	box-shadow: 0 0 5px #48FF00, 0 0 25px #48FF00, 0 0 50px #48FF00;
-	border-radius: 6px;
-	cursor: pointer;
+.opt{
+	border: thin solid #626262;
+	padding: 10px;
+}
+
+.datearea strong{
+	padding-right: 20px;
+}
+
+.datearea{
+	font-size: 20px;
+	padding: 10px;
+	border: thin solid #626262;
+	width: 100%;
 }
 
 .chk2{
@@ -37,7 +41,7 @@
 }
 
 .background {
-  background: black;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: flex-start;

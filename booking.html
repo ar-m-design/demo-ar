@@ -55,7 +55,7 @@
 										<li class="nav-item"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
 										<li class="nav-item"><a class="nav-link" href="gallery.html"><strong>Gallery</strong></a></li>
 										<li class="nav-item"><a class="nav-link" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>Services</strong></a>
-												<div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="remapping.html">ECU REMAPPING</a> <a class="dropdown-item" href="remapoptions.html">REMAPPING OPTIONS</a> <a class="dropdown-item" href="upgrades.html">PERFORMACE UPGRADES</a> <a class="dropdown-item" href="airride.html">AIRRIDE</a> <a class="dropdown-item" href="exhaust.html">EXHAUST SYSTEMS</a> <a class="dropdown-item" href="servicing.html">SERVICING</a> </div>
+												<div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="remapping.html">ECU REMAPPING</a> <a class="dropdown-item" href="remapoptions.html">REMAPPING OPTIONS</a> <a class="dropdown-item" href="upgrades.html">PERFORMANCE UPGRADES</a> <a class="dropdown-item" href="airride.html">AIRRIDE</a> <a class="dropdown-item" href="exhaust.html">EXHAUST SYSTEMS</a> <a class="dropdown-item" href="servicing.html">SERVICING</a> </div>
 										</li>
 										<li class="nav-item"><a class="nav-link" href="shop.html"><strong>Shop ONLINE</strong></a></li>
 										<li class="nav-item"><a class="nav-link" href="contact.html"><strong>Contact Us</strong></a></li>
@@ -88,6 +88,7 @@
 														<input type="text" name="Make/Model" id="Vehicle" class="form-control" placeholder="Vehicle make/model" required>
 													<br>
 														<input type="text" name="Registration" id="reg" class="form-control" placeholder="Vehicle registration" required>
+													<br>
 												</div>
 											<div class="col-md-5">
 												<div class="background">
@@ -99,8 +100,8 @@
 												</div>
 											</div>
 											<div class="col-md-6">
-												<br>
-												<h3>EXHAUST REQUIRMENTS</h3>
+												<div class="opt">
+												<h3>EXHAUST REQUIREMENTS</h3>
 													<br>
 														<select class="catagory" name="category">
 																<option value="">- exhaust options -</option>
@@ -147,10 +148,11 @@
 																<option value="1">Stainless steel</option>
 																<option value="1">titanium</option>
 														</select>
+												</div>
 											</div>
 											<div class="col-md-6"> 
-												<br>
-												<h3>REMAP REQUIRMENTS</h3>
+												<div class="opt">
+												<h3>REMAP REQUIREMENTS</h3>
 												<br>
 													<select class="catagory" name="category2">
 															<option value="">- required tune -</option>
@@ -208,28 +210,34 @@
 															<option value="1">pop and bang / crackles</option>
 													</select>
 											</div>
+											</div>
 										</div>
 										<div class="row form-group">
 												<div class="col-md-12"> 
 														<textarea name="message" id="message" cols="30" rows="8" class="form-control" placeholder="Extra details for chosen services to be carried out..." required></textarea>
 												</div>
 										</div>
-										<div data-netlify-recaptcha="true"></div>
+										<div class="row form-group">
 										<div class="col-md-6">
-												<span><strong>Choose Date:</strong><input type="date" style="padding-left: 15px" required /></span>
+											<div class="datearea">
+												<span><strong>Choose Date:</strong><input type="date" required /></span>
+											</div>
 										</div>
+									</div>
+										<div data-netlify-recaptcha="true"></div>
+									<br>
 										<div class="row form-group">
 											<div class="col-md-6">
 												<div class="form-group bt">
-													<a><b><span><input type="submit" value="Submit Booking" class="cb"></span></b></a>
+													<a><b class="active"><span><input type="submit" value="SUBMIT BOOKING" class="cb"></span></b></a>
 												</div>
 											</div>
 										</div>
 											<div class="col-md-6">
-												<p>Please allow 24 hours to receive your booking confirmation. Your confirmation email will contain your booking referance number which you will need to confirm on the day of the booking. <br>
-												We may contact you via phone or email in advance to discuss any further requirements in regards to your booking.<br>
+												<p>Please allow 24 hours to receive your booking confirmation. Your confirmation email will contain your booking reference number which you will need to confirm on the day of the booking.<br>
+												We may contact you via phone or email in advance to discuss any further requirements regarding your booking. <br>
 													<br>
-												By submitting this booking you are agreeing to our <strong>terms and conditions</strong></p>
+												By submitting this booking, you are agreeing to our <strong>terms and conditions</strong>.</p>
 											</div>
 								</form>
 						</div>
