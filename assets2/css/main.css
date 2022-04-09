@@ -1283,7 +1283,7 @@ input, select, textarea {
 			}
 
 			.poptrox-popup .caption p {
-				color: #ffffff;
+				color: rgba(0,0,0,0.00);
 			}
 
 		.poptrox-popup .loader {
@@ -1458,27 +1458,27 @@ input, select, textarea {
 	}
 
 	#header {
-		-moz-transform: translateY(0);
-		-webkit-transform: translateY(0);
-		-ms-transform: translateY(0);
-		transform: translateY(0);
-		-moz-transition: -moz-transform 1s ease;
-		-webkit-transition: -webkit-transform 1s ease;
-		-ms-transition: -ms-transform 1s ease;
-		transition: transform 1s ease;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		-webkit-user-select: none;
-		background: #1f2224;
-		bottom: -1em;
-		height: 5em;
-		left: 0;
-		line-height: 4em;
-		padding: 0 1.5em;
-		position: fixed;
-		user-select: none;
-		width: 100%;
-		z-index: 10002;
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	-moz-transition: -moz-transform 1s ease;
+	-webkit-transition: -webkit-transform 1s ease;
+	-ms-transition: -ms-transform 1s ease;
+	transition: transform 1s ease;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	background: rgba(0, 0, 0, 0.83);
+	bottom: -1em;
+	height: 5em;
+	left: 0;
+	line-height: 4em;
+	padding: 0 1.5em;
+	position: fixed;
+	user-select: none;
+	width: 100%;
+	z-index: 10002;
 	}
 
 		body.is-preload #header {
