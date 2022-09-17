@@ -1799,11 +1799,11 @@ iframe {
   width: 100%;
 }
 .banner {
-  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,255,255,1.00) 45.26%,rgba(0,0,0,1.00) 100%);
-  background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,255,255,1.00) 45.26%,rgba(0,0,0,1.00) 100%);
-  background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,255,255,1.00) 45.26%,rgba(0,0,0,1.00) 100%);
-  background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(255,255,255,1.00) 45.26%,rgba(0,0,0,1.00) 100%);
-  color: #48FF00;
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 16.94%,rgba(160,160,160,1.00) 45.26%,rgba(0,0,0,1.00) 84.99%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 16.94%,rgba(160,160,160,1.00) 45.26%,rgba(0,0,0,1.00) 84.99%);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 16.94%,rgba(160,160,160,1.00) 45.26%,rgba(0,0,0,1.00) 84.99%);
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 16.94%,rgba(160,160,160,1.00) 45.26%,rgba(0,0,0,1.00) 84.99%);
+	color: #48FF00;
 }
 .banner2 {
   background: url(../images/rm-bn-14.png) center bottom/cover no-repeat #404040;
@@ -1864,7 +1864,7 @@ form {}
   padding-bottom: 20%;
 }
 .style2 {
-  background: url("../images/newbg.png");
+  background: url("../images/newbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
