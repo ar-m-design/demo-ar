@@ -1141,7 +1141,7 @@ form input.btn-primary:hover, form button.btn-primary:hover {
     5 - Hero
 ------------------------------------*/
 #hero5 {
-  background: url("../images/diag.jpeg") no-repeat center;
+  background: url("../images/bg5.jpg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1161,14 +1161,14 @@ form input.btn-primary:hover, form button.btn-primary:hover {
     3 - Hero
 ------------------------------------*/
 #hero3 {
-  background: url("../images/bg3.jpeg") no-repeat center;
+  background: url("../images/bg3.jpg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;
   z-index: 0;
 }
 #hero2 {
-  background: url("../images/bg2.jpeg") no-repeat;
+  background: url("../images/bg2.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1178,7 +1178,7 @@ form input.btn-primary:hover, form button.btn-primary:hover {
     1 - Hero
 ------------------------------------*/
 #hero1 {
-  background: url("../images/bg.jpeg") no-repeat;
+  background: url("../images/bg.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1897,61 +1897,3 @@ form {}
 /*-----------------------------------
     3D carousel
 ------------------------------------*/
-
-.boxx-ctr{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: #000;
-	
-}
-
-.boxx{
-	position: relative;
-	height: 200px;
-	width: 150px;
-	transform-style: preserve-3d;
-	animation: animate2 30s linear infinite;
-}
-
-@keyframes animate2{
-	0%{
-		transform: perspective(1000px) rotateY(0deg);
-	}
-	100%{
-		transform: perspective(1000px) rotateY(360deg);
-	}
-}
-
-.boxx span{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transform-origin: center;
-	transform-style: preserve-3d;
-	transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
-	-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
-}
-
-.boxx span img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	-webkit-box-shadow: 0 0 8px #fff;
-	        box-shadow: 0 0 8px #fff;
-	-webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0005);
-}
-
-.boxx span img:hover{
-	cursor: pointer;
-	-webkit-box-shadow: 0 0 15px #fff;
-	        box-shadow: 0 0 15px #fff;
-	-webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0007);
-}
-
