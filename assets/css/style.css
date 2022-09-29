@@ -1091,7 +1091,7 @@ nav .login ul {
   transition: all 0.25s ease-in-out;
 }
 .social a:hover {
-  color: #fff;
+  color: #787878;
   background-color: #48FF00;
 }
 .dropdown-menu a {
