@@ -15,7 +15,7 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
-#navbarDropdown1{
+#navbarDropdown1, #navbarDropdown2{
 	cursor: pointer;
 }
 
@@ -520,7 +520,7 @@ nav .login ul {
     font-weight: bold;
 }
 .dropdown-menu{
-    background-color: rgba(0,0,0,0.53);
+    background-color: rgba(0,0,0,0.75);
     float: none;
 }
 
@@ -1535,7 +1535,8 @@ iframe{
  #ground {  
   width: 900px;  
   height: 900px;  
-  position: absolute;  
+  position: absolute;
+	 overflow-x: hidden;
   top: 100%;  
   left: 50%;  
   -webkit-transform: translate(-50%,-50%) rotateX(90deg);  
