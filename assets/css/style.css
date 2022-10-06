@@ -15,6 +15,10 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
+.carousel-inner .carousel-item img {
+	right: 0px;
+}
+
 #my-search-79722719{
 	margin: auto;
 	display: flex;
@@ -1018,8 +1022,8 @@ b:hover span {
     1 - Header
 ------------------------------------*/
 header {
-  background-color: rgba(0, 0, 0, 0.51);
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.71);
+  color: #fdfdfd;
   z-index: 1000;
 }
 header a {
@@ -1071,7 +1075,7 @@ nav .login ul {
   padding: 0px;
 }
 .social {
-  padding-left: 0;
+  padding-left: 5px;
   margin: 0;
   list-style: none;
 }
@@ -1081,11 +1085,11 @@ nav .login ul {
 .social a {
   font-size: 14px;
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border: 1px solid #48FF00;
   border-radius: 4px;
-  line-height: 40px;
+  line-height: 35px;
   text-align: center;
   background-color: transparent;
   transition: all 0.25s ease-in-out;
@@ -1099,15 +1103,22 @@ nav .login ul {
   font-weight: bold;
 }
 .dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.53);
+  background-color: rgba(0, 0, 0, 0.75);
   float: none;
 }
 .navbar-brand img {
   width: 140px;
 }
+#nav-shop{
+	
+}
+.search-form{
+	z-index: 2000;
+}
 .navbar-collapse .search-form input[type="text"] {
+	z-index: 1;
   border: 1px solid #ced4da;
-  color: #333;
+  color: #fff;
   padding: 1.5625rem 0.625rem;
 }
 .navbar-collapse .search-form .btn {
