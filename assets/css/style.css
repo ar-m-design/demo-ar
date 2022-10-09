@@ -1043,7 +1043,7 @@ header::after {
 }
 .nav-link {
   font-family: "Rajdhani", sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .contact {
   font-size: 14px;
@@ -1098,19 +1098,61 @@ nav .login ul {
   color: #787878;
   background-color: #48FF00;
 }
-.dropdown-menu a {
-  color: rgba(72, 255, 0, 1.00);
-  font-weight: bold;
+.dropdown-item{
+	color: #48ff00;
+	text-transform: capitalize;
 }
 .dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.75);
-  float: none;
+  display: none;
+	padding-top: 0px;
+	margin-top: 0px;
 }
+
+#navbarSupportedContent ul #dropdown1:hover .dropdown-menu {
+  display: block;
+  position:absolute;
+	top: inherit;
+  background-color: #000000;
+	text-align: left;
+	text-transform: capitalize;
+
+}
+#navbarSupportedContent ul #dropdown1:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+#navbarSupportedContent ul #dropdown1:hover .dropdown-menu ul li {
+
+  width: 150px;
+  padding: 10px;
+}
+
+#navbarSupportedContent ul #dropdown2:hover .dropdown-menu {
+  display: block;
+  position:absolute;
+	top: inherit;
+  background-color: #000000;
+	text-align: left;
+	text-transform: capitalize;
+
+}
+#navbarSupportedContent ul #dropdown2:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+#navbarSupportedContent ul #dropdown2:hover .dropdown-menu ul li {
+
+  width: 150px;
+  padding: 10px;
+}
+
 .navbar-brand img {
   width: 140px;
 }
-#nav-shop{
-	
+i .fa-navicon{
+	font-size: 1em;
 }
 .search-form{
 	z-index: 2000;
@@ -1127,7 +1169,7 @@ nav .login ul {
   margin-left: -1px;
 }
 .navbar-collapse .nav-link {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   transition: all 0.2s ease-in-out;
 }
 .navbar-collapse .nav-link:hover {

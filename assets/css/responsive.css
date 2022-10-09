@@ -40,12 +40,6 @@
 
 
 @media (max-width: 575px) {
-		#navbarSupportedContent{
-	padding-left: 10px;
-	margin-top: 20px;
-	width: 100%;
-	background-color: rgba(0,0,0,1);
-	}
 	
 	.container-s .box{
 		flex-direction: column;
@@ -59,6 +53,11 @@
 }
 
 @media (max-width: 768px) {
+			#navbarSupportedContent{
+	padding-left: 10px;
+	width: 100%;
+	background-color: rgba(0,0,0,1);
+	}
 	header {
 	background: url("../images/rm-bn-1400000.png") no-repeat rgba(0,0,0,0.15);
 	background-size: cover;
@@ -91,7 +90,7 @@
 	margin-right: 0px;
   }
   .navbar-collapse .nav-link {
-    font-size: 0.875rem;
+    font-size: 1rem;
     position: relative;
   }
   .navbar-collapse .nav-link::before {
