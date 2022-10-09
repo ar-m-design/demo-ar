@@ -22,7 +22,6 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
         rel="stylesheet">
 <!-- Plugins Stylesheets -->
-<link rel="license" href="assets/apple-developer-merchantid-domain-association">
 <link rel="stylesheet" href="assets/css/loader/loaders.css">
 <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
 <link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -514,6 +513,14 @@
 <!--jQuery--> 
 <script src="assets/js/jquery-3.3.1.js"></script> 
 <!--Plugins--> 
+		 <script>
+    window.ec = window.ec || {};
+    window.ec.config = window.ec.config || {};
+    window.ec.config.storefrontUrls = window.ec.config.storefrontUrls || {};
+     
+    window.ec.config.storefrontUrls.cleanUrls = true;
+    window.ec.config.baseUrl = '/shop';
+    </script>
 <script src="assets/js/bootstrap.bundle.js"></script> 
 <script src="assets/js/loaders.css.js"></script> 
 <script src="assets/js/aos.js"></script> 
