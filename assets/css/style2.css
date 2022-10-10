@@ -15,8 +15,54 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
-#navbarDropdown1, #navbarDropdown2{
-	cursor: pointer;
+.dropdown-item{
+	color: #48ff00;
+	text-transform: capitalize;
+}
+.dropdown-menu {
+  display: none;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#navbarSupportedContent ul #dropdown1:hover .dropdown-menu {
+  display: block;
+  position:absolute;
+	top: inherit;
+  background-color: #000000;
+	text-align: left;
+	text-transform: capitalize;
+
+}
+#navbarSupportedContent ul #dropdown1:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+#navbarSupportedContent ul #dropdown1:hover .dropdown-menu ul li {
+
+  width: 150px;
+  padding: 10px;
+}
+
+#navbarSupportedContent ul #dropdown2:hover .dropdown-menu {
+  display: block;
+  position:absolute;
+	top: inherit;
+  background-color: #000000;
+	text-align: left;
+	text-transform: capitalize;
+
+}
+#navbarSupportedContent ul #dropdown2:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+#navbarSupportedContent ul #dropdown2:hover .dropdown-menu ul li {
+
+  width: 150px;
+  padding: 10px;
 }
 
 .opt{
@@ -447,7 +493,7 @@ header::after {
 
 .nav-link {
   font-family: "Rajdhani", sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .contact {
