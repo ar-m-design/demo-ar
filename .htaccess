@@ -2,25 +2,3 @@
     RewriteEngine On
     RewriteRule ^shop/.*$ shop.html
     </IfModule>
-
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^.*-p[\d]+$ index.html
-    RewriteRule ^.*-c[\d]+$ index.html
-    RewriteRule ^cart$ index.html
-    RewriteRule ^search.*$ index.html
-    RewriteRule ^checkout/.+$ index.html
-    RewriteRule ^account/.+$ index.html
-    RewriteRule ^pages/.+$ index.html
-    RewriteRule ^signIn.*$ index.html
-    RewriteRule ^resetPassword.*$ index.html
-    RewriteRule ^checkoutAB.*$ index.html
-    RewriteRule ^downloadError.*$ index.html
-    RewriteRule ^checkoutResult.*$ index.html
-    RewriteRule ^checkoutWait.*$ index.html
-    RewriteRule ^orderFailure.*$ index.html
-    RewriteRule ^checkoutCC.*$ index.html
-    RewriteRule ^checkoutEC.*$ index.html
-    RewriteRule ^checkoutAC.*$ index.html
-    RewriteRule ^FBAutofillCheckout.*$ index.html
-    </IfModule>
