@@ -2325,8 +2325,7 @@ textarea.form-control {
 
 .btn:hover {
   color: #777;
-  background: #48FF00;
-  box-shadow: 0 0 5px #48FF00, 0 0 25px #48FF00, 0 0 50px #48FF00, 0 0 200px #48FF00;
+  box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 10px #fff, 0 0 20px #fff;
   border: 1px solid transparent;
 }
 
@@ -2352,7 +2351,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #ffffff10;
+    background-color: #ffffff15;
     border-color: transparent;
 	backdrop-filter: blur(12px);
 	-webkit-backdrop-filter: blur(12px);
@@ -2360,8 +2359,6 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #48FF00;
-    border-color: #48FF00;
 }
 
 .btn-primary:focus, .btn-primary.focus {

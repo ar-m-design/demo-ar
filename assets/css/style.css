@@ -15,8 +15,34 @@
 12 - Footer Widgets
 13 - Foot Note
 --------------------------------------------------------------------*/
-.carousel-inner .carousel-item img {
-	right: 0px;
+.carousel-item{
+ width: 100%;
+	height: 76vh;
+}
+ .carousel-item #c1{
+	width: 250px;
+	z-index: 10;
+	position: absolute;
+	 bottom: 100px;
+	margin-left: 100px;
+	
+}
+ .carousel-item #c2{
+	width: 250px;
+	z-index: 10;
+	position: absolute;
+	 bottom: 70px;
+	margin-left: 10px;
+	
+}
+
+ .carousel-item #c3{
+	width: 250px;
+	z-index: 10;
+	position: absolute;
+	 bottom: 70px;
+	margin-left: 10px;
+	
 }
 
 #my-search-79722719{
@@ -1977,3 +2003,26 @@ form {}
 /*-----------------------------------
     3D carousel
 ------------------------------------*/
+#cr3{
+  background: url("../images/slide/dyno_slider.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+#cr2{
+  background: url("../images/slide/airlift_suspension_slider.jpg") top left no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+#cr1{
+  background: url("../images/slide/rotiform_slider.jpg") bottom no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
