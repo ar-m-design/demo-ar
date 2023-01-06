@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule ^shop/.*$ shop.html
+    RewriteRule ^shop/.*$ index.html
 		
 		
 		RewriteRule ^.*-p[\d]+$ index.html
