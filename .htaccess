@@ -1,4 +1,18 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^shop/.*$ shop.html
+		
+		
+		RewriteRule ^.*-p[\d]+$ index.html
+    RewriteRule ^.*-c[\d]+$ index.html
+    RewriteRule ^cart$ index.html
+    RewriteRule ^search.*$ index.html
+    RewriteRule ^checkout/.+$ index.html
+    RewriteRule ^account/.+$ index.html
+    RewriteRule ^pages/.+$ index.html
+    RewriteRule ^signIn.*$ index.html
+    RewriteRule ^resetPassword.*$ index.html
+    RewriteRule ^checkoutAB.*$ index.html
+		
+		
     </IfModule>
