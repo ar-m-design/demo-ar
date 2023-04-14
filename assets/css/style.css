@@ -2029,3 +2029,32 @@ form {}
 }
 #cr3{
 }
+
+.database-header{
+ color: rgba(0,255,0,1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: inherit;
+}
+
+#baseinner{
+
+justify-content: center;
+	align-items: center;
+	padding-top: -70px;
+}
+
+.dbase{
+	width: 99.2%;
+	z-index: 999;
+	height: 70px;
+	background: rgba(0,0,0,1.00);
+}
+
+.databse-box{
+
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.00);
+	border: medium solid rgba(0,255,0,1.00);
+}
