@@ -2,6 +2,16 @@
     Small devices (landscape phones, 576px and up)
 ------------------------------------*/
 @media (min-width: 576px) {
+		.dbase{
+	width: 98%;
+	height: auto;
+}
+	.databse-box{
+
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+}
 	
 	.phero{
 	height: 95px;
@@ -40,6 +50,20 @@
 
 
 @media (max-width: 575px) {
+	.dbase{
+	width: 100%;
+	height: auto;
+}
+	.databse-box{
+
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+}
+	
+	.notice{
+		font-size: 11px;
+	}
 	
 	.container-s .box{
 		flex-direction: column;
@@ -53,6 +77,10 @@
 }
 
 @media (max-width: 767px) {
+	
+		.dbase{
+	height: auto;
+}
 						#navbarSupportedContent{
 	padding-left: 10px;
 	width: 100%;
