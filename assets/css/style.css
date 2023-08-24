@@ -37,6 +37,9 @@
 }
 .upload-icon{
 }
+.frm{
+	padding-bottom: 15px;
+}
 .upload {
 	display: flex;
 	align-items: center;
@@ -93,22 +96,25 @@
 
 
 
-.container-boxes{
+.container-boxes {
+	padding: 0px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	
+	justify-content: space-between;
+	
 
 }
 
 .container-boxes .option_item {
-  display: block;
   position: relative;
+	min-width: 150px;
   width: 150px;
   height: 150px;
-  margin: 10px;
+  margin: 10px auto;
 }
 
-.container-boxes .option_item .radio {
+.container-boxes .option_item input {
   position: absolute;
   top: 0;
   left: 0;
@@ -144,7 +150,7 @@
 
 
 
-.option_item .radio:checked ~ .option_inner.stage {
+.option_item input:checked ~ .option_inner {
   border-color: #00FF00;
   color: #00FF00;
 }
@@ -170,7 +176,7 @@
   transform: rotate(-45deg);
 }
 
-.option_item .radio:checked ~ .option_inner .tickmark {
+.option_item input:checked ~ .option_inner .tickmark {
   display: block;
 }
 .option_item .option_inner.stage .tickmark {
@@ -2368,6 +2374,9 @@ justify-content: center;
   color: #F1F1F1;
   text-align: center;
   line-height: inherit;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	
 }
 .input3 {
   position: relative;
@@ -2402,9 +2411,9 @@ justify-content: center;
   left: 30px;
 }
 .input3:after {
-  content: "  O";
+  content: "ON";
   position: absolute;
-  left: 18%;
+  left: 22%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
@@ -2420,6 +2429,7 @@ justify-content: center;
 }
 .input3:checked:after {
   display: inline-flex;
+	
 }
 
 
@@ -2450,8 +2460,8 @@ input.form-control2{
 	align-items: flex-start;
 	flex-direction: column;
 	padding: 5px;
-	width: 30%;
-	margin-bottom: 15px;
+	width: 100%;
+	margin-bottom: 10px;
 }
 .in-text{
 	padding-left: 10px;
