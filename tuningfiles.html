@@ -1,7 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) --> 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SVNLKSF7NW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SVNLKSF7NW');
+</script>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -103,15 +111,33 @@
 												<div class="col-md-4"> <br>
 														<p>Use this form to upload a file to be remapped.<br>
 																<br>
-																Please upload your ECU file with any data logs you may have.</p>
+																Please upload your ECU file with any datalogs you may have.</p>
 												</div>
 												<div class="col-md-8">
-														<input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
-														<input type="email" name="email" id="email" class="form-control" placeholder="Your email" required>
-														<input type="text" name="Make/Model" id="Vehicle" class="form-control" placeholder="Vehicle make/model" required>
-														<input type="text" name="registration" id="reg" class="form-control" placeholder="Vehicle registration" required>
+														<label for="name" class="w-100">Name<strong style="color: red"> &#42;</strong><input type="text" name="name" id="name" class="form-control" placeholder="Full name" required></label>
+														<label for="email" class="w-100">Email<strong style="color: red"> &#42;</strong><input type="email" name="email" id="email" class="form-control" placeholder="Your email" required></label>
+														<label for="vehicle" class="w-100">Vehicle Make<strong style="color: red"> &#42;</strong><input type="text" name="vehicle" id="vehicle" class="form-control" placeholder="Vehicle make/model" required></label>
+														<label for="registration" class="w-100">Vehicle Reg<strong style="color: red"> &#42;</strong><input type="text" name="registration" id="registration" class="form-control" placeholder="Vehicle registration" required></label>
 														
 												</div>
+												<div class="col-12 col-md-4" style="padding: 0px">
+																<div class="background4 w-100">
+															
+																	<label for="ecu" class="w-100">ECU Type<strong style="color: red"> &#42;</strong><input type="text" name="ecu" id="ecu" class="form-control2" placeholder="Enter ECU type" required></label></div>
+															</div>
+															
+															<div class="col-12 col-md-4" style="padding: 0px">
+																<div class="background4 w-100">
+															
+															<label for="tool" class="w-100">Tuning Tool Used<strong style="color: red"> &#42;</strong><input type="text" name="tool" id="tool" class="form-control2" placeholder="Enter tuning tool" required></label></div>
+															
+															</div>
+															<div class="col-12 col-md-4" style="padding: 0px">
+																<div class="background4 w-100 ">
+															
+															<label for="mileage" class="w-100">Mileage<strong style="color: red"> &#42;</strong><input type="text" name="mileage" id="mileage" class="form-control2" placeholder="Enter mileage" required> </label></div>
+															
+															</div>
 											
 												<div class="col-md-12 tune-header">
 														<h2>Required Tune</h2>
@@ -179,32 +205,10 @@
 								</div>
 	</div>
 													
-													
-											<div class="col-md-12 tune-header"> <br>
+											
+																<div class="col-md-12 tune-header">
 														<h2>Tune Details</h2>
 												</div>
-										
-															
-															<div class="col-12 col-md-4" style="padding: 0px">
-																<div class="background4 w-100">
-															<div class="detail-input">
-																	<label for="ecu"> ECU Type <strong style="color: red"> &#42;</strong></label><input type="text" name="ecu" id="ecu" class="form-control2" placeholder="Enter ECU type" required> </div></div>
-															</div>
-															
-															<div class="col-12 col-md-4" style="padding: 0px">
-																<div class="background4 w-100">
-															<div class="detail-input">
-															<label for="tool">Tuning Tool Used <strong style="color: red"> &#42;</strong></label><input type="text" name="tool" id="tool" class="form-control2" placeholder="Enter tuning tool" required> </div></div>
-															
-															</div>
-															<div class="col-12 col-md-4" style="padding: 0px">
-																<div class="background4 w-100 ">
-															<div class="detail-input">
-															<label for="mileage">Mileage<strong style="color: red"> &#42;</strong></label><input type="text" name="mileage" id="mileage" class="form-control2" placeholder="Enter mileage" required> </div></div>
-															
-															</div>
-															
-															
 													
 												
 											<div class="col-12 col-lg-4" style="padding: 0px">
@@ -217,10 +221,10 @@
 											</div>
 											<div class="col-12 col-lg-4" style="padding: 0px">
 												<div class="background3">
-													<label class="chk3"><input type="checkbox" name="swirlflap" class="input3" id="swirl"/><div class="in-text">SWIRL FLAP OFF</div></label>
-					  								<label class="chk3"><input type="checkbox" name="egt" class="input3" id="egt"/><div class="in-text">EGT SENSOR OFF</div></label>
-													<label class="chk3"><input type="checkbox" name="o2" class="input3" id="o2"/><div class="in-text">02 SENSOR OFF</div></label>
-													<label class="chk3"><input type="checkbox" name="launch" class="input3" id="lc"/><div class="in-text">LAUNCH CONTROL</div></label>
+													<label for="swirlflap" class="chk3"><input type="checkbox" name="swirlflap" class="input3" id="swirl"/><div class="in-text">SWIRL FLAP OFF</div></label>
+					  								<label for="egt" class="chk3"><input type="checkbox" name="egt" class="input3" id="egt"/><div class="in-text">EGT SENSOR OFF</div></label>
+													<label for="o2" class="chk3"><input type="checkbox" name="o2" class="input3" id="o2"/><div class="in-text">02 SENSOR OFF</div></label>
+													<label for="launch" class="chk3"><input type="checkbox" name="launch" class="input3" id="lc"/><div class="in-text">LAUNCH CONTROL</div></label>
 												</div>
 											</div>
 											<div class="col-12 col-lg-4" style="padding: 0px">
@@ -231,12 +235,8 @@
 													<label class="chk3"><input type="checkbox" name="popandbang" class="input3" id="pops"/><div class="in-text">POPS &amp; BANGS</div></label>
 												</div>
 											</div>
-												
-<div class="col-md-12 tune-header"> <br>
-														<h2>Custom Requirements</h2>
-												</div>
 												<div class="col-md-12" > <br>
-														<textarea name="message" id="message" cols="10" rows="9" class="form-control" placeholder="Provide extra details of the required tuning including relevant hardware modifications "></textarea>
+														<label for="message" class="w-100">Custom Requirements<textarea name="message" id="message" cols="10" rows="9" class="form-control" placeholder="Provide extra details of the required tuning including relevant hardware modifications "></textarea></label>
 												</div>
 										<div class="frm w-100">
 									<div class="upload">
@@ -258,11 +258,14 @@
 										<br>
 										<div data-netlify-recaptcha="true"></div>
 										<br>
-										<a class="eb"><b class="active"><span>
-										<input type="submit" value="SUBMIT UPLOAD" class="cb">
-										</span></b></a>
+											<div class="col-6">
+												
+										<a><b class="active"><span>
+										<input type="submit" value="UPLOAD" class="cb">
+										</span></b></a></div><div class="col-6">
+											</div>
 										<div class="col-md-12" style="padding-top: 20px">
-												<p>By clicking SUBMIT UPLOAD, you are agreeing to our <strong>Terms and Conditions</strong>.</p>
+												<p>By clicking UPLOAD, you are agreeing to our <strong>Terms and Conditions</strong>.</p>
 										</div>
 									
 									</div>

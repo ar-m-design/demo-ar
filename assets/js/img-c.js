@@ -1,21 +1,13 @@
 // JavaScript Document
 
- var radius = 240; // how big of the radius  
+ var radius = 270; // how big of the radius  
  var autoRotate = true; // auto rotate or not  
  var rotateSpeed = -60; // unit: seconds/360 degrees  
  var imgWidth = 120; // width of images (unit: px)  
  var imgHeight = 160; // height of images (unit: px)  
  // Link of background music - set 'null' if you dont want to play background music  
 
-// Show UI music control  
- /*  
-    NOTE:  
-     + imgWidth, imgHeight will work for video  
-     + if imgWidth, imgHeight too small, play/pause button in <video> will be hidden  
-     + Music link are taken from: https://hoangtran0410.github.io/Visualyze-design-your-own-/?theme=HauMaster&playlist=1&song=1&background=28  
-     + Custom from code in tiktok video https://www.facebook.com/J2TEAM.ManhTuan/videos/1353367338135935/  
- */  
- // ===================== start =======================  
+
  // animation start after 1000 miliseconds  
  setTimeout(init, 1000);  
  var odrag = document.getElementById('drag-container');  
@@ -57,13 +49,7 @@
   ospin.style.animation = `${animationName} ${Math.abs(rotateSpeed)}s infinite linear`;  
  }  
  // add background music  
- if (bgMusicURL) {  
-  document.getElementById('music-container').innerHTML += `  
- <audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>    
- <p>If you are reading this, it is because your browser does not support the audio element.</p>  
- </audio>  
- `;  
- }  
+
  // setup events  
  document.onpointerdown = function (e) {  
   clearInterval(odrag.timer);  

@@ -193,9 +193,8 @@
 	padding: 6px;
 }
 
-.eb{
-	width: 40%;
-}
+
+
 
 
 .carousel-item2{
@@ -2449,11 +2448,14 @@ input.form-control2{
 .background4 {
   background: transparent;
   display: flex;
-  justify-content: center;
-  align-items: center;
+	flex-direction: column;
+	padding: 0px;
+  justify-content: flex-start;
+  align-items:flex-start;
   height: auto;
-  flex-direction: row;
+	margin-bottom: 10px;
 }
+
 .detail-input{
 	display: flex;
 	justify-content: flex-start;
@@ -2473,4 +2475,13 @@ input.form-control2{
 	color: #00FF00;
 	text-transform: uppercase;
 	line-height: inherit;
+}
+
+
+.sub-bt{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding-left: 0px;
 }
